@@ -35,7 +35,7 @@ operators.forEach((operator) => {
 
 const inputOperator = (operator) => {
 	if (calculationOperator === '') {
-		previousNumber = currentNumber
+		prevNumber = currentNumber
 	}
 	calculationOperator = operator
 	currentNumber = '0'
